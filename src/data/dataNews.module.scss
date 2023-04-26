@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .block {
+    padding: 0 50px 0 0;
+    margin-bottom: 64px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+}
+
+.item_pdf {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 36px 36px;
+  margin-bottom: 24px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p {
+      margin-right: 24px;
+
+      &:first-child {
+        background-color: red;
+        color: white;
+        padding: 2px 4px;
+        border-radius: 5px;
+      }
+
+      &:last-child {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+
+    &:nth-child(2) {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    &:nth-child(3) {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+
+      justify-content: flex-end;
+
+      text-align: right;
+
+      cursor: pointer;
+
+      color: var(--color--button_blue);
+    }
+  }
+}

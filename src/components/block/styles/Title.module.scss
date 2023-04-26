@@ -1,0 +1,23 @@
+.title { 
+  padding-top:24px;    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 59px;
+  color: rgba(54, 54, 54, 1);
+  @media (max-width: 800px) {
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+.left {
+  text-align: right;
+}
+.right {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}

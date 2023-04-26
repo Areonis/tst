@@ -1,0 +1,21 @@
+.root {
+  height: 48px;
+  width: 180px;
+  border-radius: 10px;
+  background-color: var(--color--button_blue);
+  border: none;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+
+  &:active {
+    background-color: rgb(11, 7, 238);
+  }
+
+  div {
+    width: 8px;
+  }
+}
